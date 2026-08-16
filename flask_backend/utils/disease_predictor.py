@@ -16,7 +16,7 @@ class DiseasePredictor:
         base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         models_dir = os.path.join(base_dir, "..", "models")
         
-        model_path = os.path.join(models_dir, "best_decision_tree_model.pkl")
+        model_path = os.path.join(models_dir, "best_decision_tree_model_optimized.pkl")
         encoder_path = os.path.join(models_dir, "disease_label_encoder.pkl")
         features_path = os.path.join(models_dir, "feature_columns.pkl")
         
