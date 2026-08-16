@@ -1,4 +1,4 @@
-const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://localhost:5000/api";
+const API_BASE = import.meta.env.VITE_API_BASE_URL || "https://medassistai-5.onrender.com";
 
 export const apiRequest = async (endpoint, options = {}) => {
   // Get token from localStorage
