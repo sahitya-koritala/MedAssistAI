@@ -12,3 +12,4 @@ groq
 scikit-learn>=1.0.0
 joblib>=1.0.0
 pandas>=1.0.0
+gunicorn
