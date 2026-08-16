@@ -44,7 +44,7 @@ const MyReports = () => {
     if (report.attachments && report.attachments.length > 0) {
       const BACKEND_BASE = import.meta.env.VITE_API_BASE_URL 
         ? import.meta.env.VITE_API_BASE_URL.replace("/api", "") 
-        : "http://localhost:5000";
+        : "https://medassistai-5.onrender.com";
       window.open(`${BACKEND_BASE}${path}`, "_blank");
     } else {
       alert("No report file attachment available for download.");
