@@ -35,7 +35,7 @@ export default function ReportAnalysis() {
       const formData = new FormData();
       formData.append("file", file);
       const token = localStorage.getItem("medico_token");
-      const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://localhost:5000/api";
+      const API_BASE = import.meta.env.VITE_API_BASE_URL || "https://medassistai-5.onrender.com";
 
       const response = await fetch(`${API_BASE}/gemini/analyze_report`, {
         method: "POST",
