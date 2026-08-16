@@ -1,6 +1,6 @@
 import { reportsStore } from "./reports-store.js";
 import { testsStore } from "./tests-store.js";
-const BASE = import.meta.env.VITE_API_BASE_URL || import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+const BASE = import.meta.env.VITE_API_BASE_URL || import.meta.env.VITE_API_URL || "https://medassistai-5.onrender.com";
 
 const TOKEN_KEY = "medico_token";
 export const getToken = () => localStorage.getItem(TOKEN_KEY);
