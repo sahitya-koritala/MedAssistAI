@@ -1,0 +1,6 @@
+{
+  "name": "MedAssist AI",
+  "description": "AI-Powered Disease Prediction & Healthcare Assistant - Predict diseases from symptoms, summarize medical reports using AI, analyze medical images, discover nearby hospitals, and receive personalized healthcare recommendations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

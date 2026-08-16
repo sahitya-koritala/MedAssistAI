@@ -1,0 +1,14 @@
+export const Role = {
+  SUPER_ADMIN: "SUPER_ADMIN",
+  HOSPITAL_ADMIN: "HOSPITAL_ADMIN",
+  DOCTOR: "DOCTOR",
+  PHARMACY: "PHARMACY",
+  PATIENT: "PATIENT",
+  LAB_ASSISTANT: "LAB_ASSISTANT",
+
+  // Legacy aliases for route compatibility
+  ADMIN: "SUPER_ADMIN",
+  CLINIC: "PHARMACY",
+  APPOINTMENT: "APPOINTMENT",
+};
+
