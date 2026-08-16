@@ -26,11 +26,6 @@ with app.app_context():
     except Exception as e:
         print("Error seeding demo accounts on startup:", e)
 
-# Eagerly load the disease prediction model
-from utils.disease_predictor import DiseasePredictor
-print("Pre-loading ML model...")
-DiseasePredictor()
-
 # Import routes
 from routes.auth_routes import auth_bp
 from routes.gemini_routes import gemini_bp
